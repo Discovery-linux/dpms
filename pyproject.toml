@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dpms"
+version = "1.1.0"
+description = "Discovery Package Manager (DPMS) - cross-platform CLI, TUI & GUI package manager"
+authors = [
+    {name = "Archit & Kevin (THE Discovery Team)"},
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.8"
+keywords = ["package-manager", "dpms", "discovery-os"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Environment :: Console",
+    "Environment :: X11 Applications :: Qt",
+    "Topic :: System :: Archiving :: Packaging",
+]
+dependencies = [
+    "requests",
+    "rich",
+    "textual",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+gui = ["PyQt5"]
+
+[project.urls]
+Homepage = "https://github.com/discoveryos/dpms"
+Repository = "https://github.com/discoveryos/dpms"
+
+[project.scripts]
+dpms = "dpms.dpms:main"
+dpms-tui = "dpms.dpms_tui:main"
+
+[tool.setuptools.packages.find]
+include = ["dpms*"]
