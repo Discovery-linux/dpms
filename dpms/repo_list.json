@@ -1,0 +1,62 @@
+{
+  "default": {
+    "version": "1.11",
+    "description": "Default DPMS package repository (multi-arch)",
+    "enabled": true,
+    "url": "https://github.com/Discovery-linux/Dpms--pkg.git",
+    "packages": [
+      "atk",
+      "bash",
+      "Calculator",
+      "cmake",
+      "curl",
+      "font-viewer",
+      "gcc",
+      "gdk-pixbuf",
+      "git",
+      "glib",
+      "gnome-console",
+      "gnome-desktop",
+      "gobject-introspection",
+      "gtk",
+      "htop",
+      "jq",
+      "less",
+      "libepoxy",
+      "make",
+      "nano",
+      "neovim",
+      "nodejs",
+      "openssh",
+      "pango",
+      "python3",
+      "ripgrep",
+      "sudo",
+      "tmux",
+      "tree",
+      "vim",
+      "wget",
+      "zsh"
+    ]
+  },
+  "x86_64": {
+    "version": "0.0.0",
+    "description": "DPMS x86_64 package repository",
+    "arch": "x86_64",
+    "enabled": true,
+    "url": "https://github.com/Discovery-linux/dpms-pkg-x86_64.git"
+  },
+  "old-dpms": {
+    "version": "0.0.0",
+    "description": "Legacy DPMS package repository",
+    "enabled": true,
+    "url": "https://github.com/Discovery-linux/Dpms--pkg.git"
+  },
+  "aarch64": {
+    "version": "0.0.0",
+    "description": "DPMS aarch64 package repository",
+    "arch": "aarch64",
+    "enabled": true,
+    "url": "https://github.com/Discovery-linux/dpms-aarch64-pkg.git"
+  }
+}

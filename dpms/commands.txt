@@ -1,0 +1,28 @@
+convert
+?Purpose: Compresses a file or folder into a tar archive.
+?Arguments:
+?source_path: The path to the file or folder to compress.
+?output_filename: The desired name for the output archive.
+?Options:
+?-c {gz, xz}, --compression_type {gz, xz}: Specifies the compression algorithm. The default is gz.
+?Example: python dpms_utils.py convert project_files my_project
+?download
+?Purpose: Downloads a file from a specified URL to a local path.
+?Arguments:
+?url: The URL of the file to download.
+?output_path: The local path to save the downloaded file.
+?Example: python dpms_utils.py download https://example.com/archive.zip ./downloads/archive.zip
+?install
+?Purpose: Downloads a package from a URL and installs it by extracting its contents.
+?Arguments:
+?package_url: The URL of the package archive to install.
+?Example: python dpms_utils.py install https://example.com/software-1.0.tar.gz
+?interactive
+?Purpose: Launches a Text-based User Interface (TUI) for interactive file conversion.
+?Example: python dpms_utils.py interactive
+?gui
+?Purpose: Launches the graphical user interface (GUI) for the tool.
+?Example: python dpms_utils.py gui
+?help
+?Purpose: Displays a list of all available commands and their descriptions.
+?Example: python dpms_utils.py help
