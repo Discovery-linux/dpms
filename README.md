@@ -1,6 +1,6 @@
-# DPMS - Discovery Package Manager
+# DPMS - Discovery Package Management System
 
-A lightweight, cross-platform package manager by **The Discovery Team**.
+A lightweight, cross-platform package manager by **The xDpms Team**.
 Supports **CLI**, **TUI** (Textual rescue shell), and **GUI** (PyQt5) interfaces.
 
 ---
@@ -146,5 +146,5 @@ python3 -m py_compile dpms/dpms.py
 ---
 
 Made by:
-- **Archit Kala** (Lead developer)
-- **Kevin Dan Matthew** (Secondary Developer)
+- **Archit Kala** (Legendary maintainer and  developer)
+- **Kevin Dan Matthew** (lead Developer)
