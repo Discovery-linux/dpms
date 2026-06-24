@@ -1,4 +1,4 @@
-# DPMS - Discovery Package Management System
+# [![Build Status](https://travis-ci.org/Sabayon/entropy.svg?branch=master) # DPMS - Discovery Package Management System
 
 A lightweight, cross-platform package manager by **The xDpms Team**.
 Supports **CLI**, **TUI** (Textual rescue shell), and **GUI** (PyQt5) interfaces.
